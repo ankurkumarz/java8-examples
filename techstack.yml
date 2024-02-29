@@ -1,0 +1,115 @@
+repo_name: ankurkumarz/java8-examples
+report_id: 4ea3554a6a1ac9128f18db3d9c068d62
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:01:00+00:00'
+requested_by: mariofusco
+provider: github
+branch: master
+detected_tools_count: 8
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/ankurkumarz/java8-examples
+  detection_source: Repo Metadata
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/ankurkumarz/java8-examples/blob/master/src/main/resources/lambdasinaction/chap3/data.txt
+  detection_source: src/main/resources/lambdasinaction/chap3/data.txt
+  last_updated_by: Raoul
+  last_updated_on: 2013-10-31 20:24:35.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ankurkumarz/java8-examples
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.11'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/ankurkumarz/java8-examples/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Mario Fusco
+  last_updated_on: 2013-11-01 19:26:42.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/ankurkumarz/java8-examples/blob/master/src/main/resources/lambdasinaction/chap3/data.txt
+  detection_source: src/main/resources/lambdasinaction/chap3/data.txt
+  last_updated_by: Raoul
+  last_updated_on: 2013-10-31 20:24:35.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.11'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ankurkumarz/java8-examples/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Mario Fusco
+  last_updated_on: 2013-11-01 19:26:42.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: org.openjdk.jmh:jmh-core
+  description: The jmh is a Java harness for building
+  version: 1.17.4
+  license: GPL-3.0-only,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ankurkumarz/java8-examples/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Mario Fusco
+  last_updated_on: 2017-02-24 07:52:33.000000000 Z
+- name: org.openjdk.jmh:jmh-generator-annprocess
+  description: JMH benchmark generator, based on annotation processors
+  version: 1.17.4
+  license: GPL-3.0-only,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ankurkumarz/java8-examples/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Mario Fusco
+  last_updated_on: 2017-02-24 07:52:33.000000000 Z
